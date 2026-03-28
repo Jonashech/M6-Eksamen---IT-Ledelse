@@ -1,4 +1,4 @@
-Projektide:
+Projektide for projektet:
 
 Projektet omhandler udviklingen af en simpel restaurant-hjemmeside, hvor brugeren kan få et hurtigt og overskueligt overblik over menu, bookingmuligheder og praktisk information om restauranten. Hjemmesiden designes med fokus på en intuitiv brugeroplevelse og et visuelt udtryk, der understøtter restaurantens identitet, samt et responsivt layout til både mobil og desktop.
 

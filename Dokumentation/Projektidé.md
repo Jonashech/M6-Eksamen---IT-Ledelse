@@ -6,5 +6,5 @@ Formålet med projektet er ikke at udvikle et teknisk komplekst system, men deri
 
 Projektet anvendes som case til at arbejde med versionsstyring i Git og GitHub, samarbejde gennem branches og merges samt anvendelse af design- og dokumentationsværktøjer som UML. Der lægges særligt vægt på refleksion over proces, valg og fravalg frem for selve produktets kompleksitet.
 
-Testing push commit 
+Testing commit
 

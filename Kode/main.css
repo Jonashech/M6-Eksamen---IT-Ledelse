@@ -1,0 +1,158 @@
+/* YUUMI — Global styling (main.css) */
+
+:root {
+    --paper:    #F5F2EC;
+    --ink:      #0E0E0D;
+    --gold:     #B5935A;
+    --muted:    #9C9488;
+    --linen:    #EDE9E1;
+    --hairline: #D8D3CB;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--paper);
+    color: var(--ink);
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    color: var(--muted);
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--gold);
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: var(--paper);
+    border-bottom: 1px solid var(--hairline);
+    padding: 1.2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.4rem;
+    letter-spacing: 0.2em;
+  }
+  
+  .logo span {
+    color: var(--gold);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  nav ul a {
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+  }
+  
+  nav ul a.active {
+    color: var(--gold);
+  }
+  
+  /* Indhold */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+  
+  .label {
+    font-size: 0.72rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .divider {
+    width: 36px;
+    height: 1px;
+    background-color: var(--gold);
+    margin: 1rem 0 1.5rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.6rem 1.6rem;
+    border: 1px solid var(--ink);
+    font-size: 0.85rem;
+    color: var(--ink);
+  }
+  
+  .btn:hover {
+    background-color: var(--ink);
+    color: var(--paper);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--ink);
+    padding: 3rem 2rem;
+    margin-top: 4rem;
+  }
+  
+  .footer-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col h4 {
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.8rem;
+  }
+  
+  .footer-col p,
+  .footer-col a {
+    font-size: 0.85rem;
+    color: var(--muted);
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+  
+  .footer-col a:hover {
+    color: var(--linen);
+  }
+  
+  .footer-bottom {
+    max-width: 960px;
+    margin: 2rem auto 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+  

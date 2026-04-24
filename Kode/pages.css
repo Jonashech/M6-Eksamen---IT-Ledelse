@@ -1,0 +1,185 @@
+/* YUUMI — Sidespecifik styling (pages.css) */
+
+/* Delt hero-stil */
+.page-hero {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: var(--linen);
+  }
+  
+  .page-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* INDEX */
+  .features {
+    display: flex;
+    border-top: 1px solid var(--hairline);
+    border-bottom: 1px solid var(--hairline);
+  }
+  
+  .feature {
+    flex: 1;
+    padding: 2rem;
+    border-right: 1px solid var(--hairline);
+  }
+  
+  .feature:last-child {
+    border-right: none;
+  }
+  
+  /* MENU */
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--hairline);
+  }
+  
+  .menu-item h4 {
+    font-weight: normal;
+    margin-bottom: 0.2rem;
+  }
+  
+  .menu-item p {
+    font-size: 0.82rem;
+    margin: 0;
+  }
+  
+  .price {
+    color: var(--gold);
+    white-space: nowrap;
+    margin-left: 1rem;
+  }
+  
+  /* GALLERI */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background-color: var(--hairline);
+  }
+  
+  .gallery-item {
+    background-color: var(--linen);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: var(--gold);
+  }
+  
+  .gallery-item p {
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0.5rem 0 0;
+  }
+  
+  /* ANMELDELSER */
+  .stats {
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid var(--hairline);
+  }
+  
+  .stat {
+    flex: 1;
+    padding: 2rem;
+    border-right: 1px solid var(--hairline);
+  }
+  
+  .stat:last-child {
+    border-right: none;
+  }
+  
+  .stat-number {
+    display: block;
+    font-size: 2.5rem;
+    color: var(--gold);
+  }
+  
+  .stat-label {
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  
+  .review-card {
+    padding: 2rem;
+    border-bottom: 1px solid var(--hairline);
+  }
+  
+  .review-stars {
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+  }
+  
+  .review-text {
+    font-style: italic;
+    color: var(--ink);
+    margin-bottom: 0.5rem;
+  }
+  
+  .review-author {
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+  
+  /* EVENTS */
+  .event-types {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background-color: var(--hairline);
+    margin-top: 2rem;
+  }
+  
+  .event-type {
+    background-color: var(--paper);
+    padding: 2rem;
+  }
+  
+  .event-listing {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--hairline);
+  }
+  
+  .event-date {
+    text-align: center;
+    min-width: 44px;
+  }
+  
+  .event-day {
+    font-size: 1.8rem;
+    color: var(--gold);
+    line-height: 1;
+  }
+  
+  .event-month {
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  
+  /* KONTAKT — åbningstider */
+  .hours-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--hairline);
+    font-size: 0.9rem;
+  }
+  
+  .hours-row span:first-child {
+    color: var(--muted);
+  }
+  

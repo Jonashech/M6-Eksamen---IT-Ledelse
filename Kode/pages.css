@@ -11,6 +11,12 @@
     font-size: 2.5rem;
   }
   
+  .page-hero {
+  background-image: url('../images/yuumi_mainpic.png');
+  background-size: cover;
+  background-position: center 60%;
+  color: var(--muted)
+  }
   /* INDEX */
   .features {
     display: flex;
@@ -78,7 +84,14 @@
     color: var(--muted);
     margin: 0.5rem 0 0;
   }
-  
+  .gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  }
+
+
   /* ANMELDELSER */
   .stats {
     display: flex;

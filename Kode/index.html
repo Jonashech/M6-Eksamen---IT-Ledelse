@@ -6,6 +6,41 @@
   <title>YUUMI — Japansk Omakase</title>
   <link rel="stylesheet" href="main.css" />
   <link rel="stylesheet" href="pages.css" />
+  <style>
+    .page-hero {
+      position: relative;
+      min-height: 90vh;
+      background-image: url(../images/yuumi_mainpic.png); 
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      padding: 0 6rem;
+    }
+
+    .page-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.1) 70%);
+    }
+
+    .page-hero .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 520px;
+      color: white;
+    }
+
+    .page-hero .label {
+      color: rgba(255,255,255,0.7);
+    }
+
+    .page-hero h1,
+    .page-hero p {
+      color: white;
+    }
+  </style>
 </head>
 <body>
 
@@ -24,10 +59,12 @@
   </nav>
 
   <div class="page-hero">
-    <span class="label">Japansk Omakase · Aarhus</span>
-    <h1>Kunst på tallerkenen</h1>
-    <p>YUUMI er et japansk omakase-køkken i hjertet af Aarhus.<br>Vi kombinerer traditionel japansk håndværk med dansk sæsonrytme.</p>
-    <a href="booking.html" class="btn">Reserver bord</a>
+    <div class="hero-content">
+      <span class="label">Japansk Omakase · Aarhus</span>
+      <h1>Kunst på tallerkenen</h1>
+      <p>YUUMI er et japansk omakase-køkken i hjertet af Aarhus.<br>Vi kombinerer traditionel japansk håndværk med dansk sæsonrytme.</p>
+      <a href="booking.html" class="btn">Reserver bord</a>
+    </div>
   </div>
 
   <div class="features">

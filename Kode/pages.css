@@ -15,7 +15,7 @@
   background-image: url('../images/yuumi_mainpic.png');
   background-size: cover;
   background-position: center 60%;
-  color: var(--muted)
+  color: var(--paper)
   }
   /* INDEX */
   .features {

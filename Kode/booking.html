@@ -26,23 +26,32 @@
   <div class="page-hero">
     <span class="label">Reservationer</span>
     <h1>Reserver bord</h1>
-    <p>Ring til os eller send en e-mail for at reservere et bord.</p>
+    <p>Udfyld formularen nedenfor, så bekræfter vi din reservation inden for 24 timer.</p>
   </div>
 
   <div class="container">
 
-    <span class="label">Kontakt os</span>
+    <span class="label">Reserver</span>
     <div class="divider"></div>
-    <h2>Sådan booker du</h2>
-    <p>Du kan reservere bord på følgende måder:</p>
-    <p><strong>Telefon:</strong> +45 87 00 00 00</p>
-    <p><strong>E-mail:</strong> booking@yuumi.dk</p>
-    <p>Vi bekræfter din reservation inden for 24 timer.</p>
+    <h2>Dine oplysninger</h2>
+
+    <form action="/book" method="POST">
+      <p>Navn</p>
+      <input type="text" name="navn" placeholder="Dit fulde navn" required />
+
+      <p>Telefon</p>
+      <input type="tel" name="telefon" placeholder="+45 00 00 00 00" required />
+
+      <p>Dato</p>
+      <input type="date" name="dato" required />
+
+      <br><br>
+      <button type="submit" class="btn">Send reservation</button>
+    </form>
 
     <br>
     <span class="label">Praktisk info</span>
     <div class="divider"></div>
-
     <p><strong>Tider:</strong> 18:00 og 20:30</p>
     <p><strong>Åbne dage:</strong> Tirsdag – lørdag</p>
     <p><strong>Gæster:</strong> Minimum 2 — maksimum 8 pr. bord</p>

@@ -12,7 +12,7 @@
   }
   
   .page-hero {
-  background-image: url('../images/yuumi_mainpic.png');
+  background-image: url('/images/yuumi_mainpic.png');
   background-size: cover;
   background-position: center 60%;
   color: var(--paper)

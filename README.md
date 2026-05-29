@@ -30,8 +30,27 @@ Selve produktet er bevidst holdt simpelt med ingen backend og minimalistiske sid
 
 ## Hvordan vi har arbejdet
  
-Loco the monkey
+**Hvordan vi har arbejdet**
+Vi har arbejdet struktureret med Git og GitHub som omdrejningspunkt for hele udviklingsprocessen.
+**Branches:** Hvert større arbejdsområde er håndteret i en separat branch (fx database-test) der efterfølgende kunne merges ind i main hvis det producerede var succesfuldt. Dette har sikret at vi aldrig har overskrevet hinandens arbejde ved en fejl.
+Commits: Vi har committet løbende med beskrivende commit-beskeder så det til enhver tid er muligt at følge hvad der er sket hvornår og af hvem.
+**Kanban board:** Vi har styret opgaverne via et Kanban board i GitHub Projects med kolonnerne To-do, In Progress, In Review og Done. Det har gjort det tydeligt hvem der arbejdede på hvad, og hjulpet os med at undgå at to personer sad og løste den samme opgave parallelt.
 
+---
+
+## UML-diagrammer
+ 
+Projektet indeholder følgende UML-dokumenter (se `Dokumentation/`):
+ 
+- **Use case-diagram** — viser relationen mellem aktørerne (Besøgende og Admin) og systemets funktioner
+- **Activity diagram** — Viser brugerrejsen når man besøger Yuumi's hjemmeside
+
+---
+ 
+## Retrospective
+ 
+Se RETROSPECTIVE.md for vores afsluttende refleksioner over processen.
+ 
 ---
 
 ## Gruppemedlemmer

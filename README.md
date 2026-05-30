@@ -61,5 +61,5 @@ Det udarbejdede Roadmap og Kanban board kan findes inde på projektets github.
 
 ## Gruppemedlemmer
 
-- Jonas Hechmann - [@Jonashech](https://github.com/Jonashech)
-- Jonas Andersen - [@454hurtigere](https://github.com/454hurtigere)
+- Jonas Hechmann - Studienr: 20250651 - [@Jonashech](https://github.com/Jonashech)
+- Jonas Andersen - Studienr: 20250650 - [@454hurtigere](https://github.com/454hurtigere)

@@ -53,6 +53,12 @@ Se RETROSPECTIVE.md for vores afsluttende refleksioner over processen.
  
 ---
 
+## Roadmap og Kanban board
+
+Det udarbejdede Roadmap og Kanban board kan findes inde på projektets github.
+
+---
+
 ## Gruppemedlemmer
 
 - Jonas Hechmann - [@Jonashech](https://github.com/Jonashech)
